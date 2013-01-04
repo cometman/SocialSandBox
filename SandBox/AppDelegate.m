@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SocialAPI.h"
 #import "ViewController.h"
 
 @implementation AppDelegate
@@ -49,4 +49,10 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    NSArray* results = [[url description] componentsSeparatedByString:(@"=")];
+    [SocialAPI saveToken:[results objectAtIndex:1]];
+    return YES;
+}
 @end
