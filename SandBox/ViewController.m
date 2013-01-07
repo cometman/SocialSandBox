@@ -38,4 +38,21 @@
     }
 }
 
+- (IBAction)getFriends:(id)sender {
+    if ([SocialAPI isTokenValid] == YES)
+    {
+        NSArray* friends = [SocialAPI getFriends];
+        if (friends != nil)
+            NSLog(@"Friends: %@", [friends description]); 
+    }
+}
+
+- (IBAction)getProfile:(id)sender {
+    if ([SocialAPI isTokenValid] == YES)
+    {
+        Profile *userProfile = [SocialAPI getProfile];
+        NSLog(@"Profile: %@", [userProfile description]);
+    }
+}
+
 @end

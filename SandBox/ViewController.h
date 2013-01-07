@@ -10,5 +10,7 @@
 
 @interface ViewController : UIViewController
 - (IBAction)authFacebook:(id)sender;
+- (IBAction)getFriends:(id)sender;
+- (IBAction)getProfile:(id)sender;
 
 @end
