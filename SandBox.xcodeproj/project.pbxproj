@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B037654C169A2D5E007907F5 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = B037654B169A2D0F007907F5 /* Profile.m */; };
 		B0376559169A63F5007907F5 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = B0376558169A63F5007907F5 /* Object.m */; };
+		B069195916B60D10000BF5F6 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = B069195716B60CAA000BF5F6 /* Album.m */; };
 		B080DB0416880E730070C056 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080DB0316880E730070C056 /* UIKit.framework */; };
 		B080DB0616880E730070C056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080DB0516880E730070C056 /* Foundation.framework */; };
 		B080DB0816880E730070C056 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080DB0716880E730070C056 /* CoreGraphics.framework */; };
@@ -29,6 +30,8 @@
 		B037654B169A2D0F007907F5 /* Profile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
 		B0376558169A63F5007907F5 /* Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
 		B037655A169A6402007907F5 /* Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		B069195616B60CAA000BF5F6 /* Album.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		B069195716B60CAA000BF5F6 /* Album.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 		B080DAFF16880E730070C056 /* SandBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B080DB0316880E730070C056 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B080DB0516880E730070C056 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -124,6 +127,8 @@
 		B080DB2616880E890070C056 /* SocialAPI */ = {
 			isa = PBXGroup;
 			children = (
+				B069195616B60CAA000BF5F6 /* Album.h */,
+				B069195716B60CAA000BF5F6 /* Album.m */,
 				B037655A169A6402007907F5 /* Object.h */,
 				B0376558169A63F5007907F5 /* Object.m */,
 				B037654A169A2D0F007907F5 /* Profile.h */,
@@ -204,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B069195916B60D10000BF5F6 /* Album.m in Sources */,
 				B0376559169A63F5007907F5 /* Object.m in Sources */,
 				B037654C169A2D5E007907F5 /* Profile.m in Sources */,
 				B080DB1016880E730070C056 /* main.m in Sources */,
