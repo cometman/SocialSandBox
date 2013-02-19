@@ -1,0 +1,67 @@
+class: SocialAPI.m
+    method: itemArchivePath
+        //    NSArray *documentDirectories = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+        //    // Get one and only document directory from that list
+        //    NSString *documentDirectory = [documentDirectories objectAtIndex:0];
+        //    // Append 
+        //    return [documentDirectory stringByAppendingPathComponent:@"items.archive"];
+
+    
+    method: isTokenValid
+        //    NSError *error;
+        //    NSDictionary* json;
+        //    
+        //    // If the token is Nil, return false;
+        //    if ([SocialAPI token] == nil) {
+        //        return false;
+        //    }
+        //    
+        //    // Check to see if the token is a valid token with Facebook.
+        //    @try{
+        //        json = [NSJSONSerialization
+        //                          JSONObjectWithData:[self sendGET:@"/fb"] //1
+        //                          
+        //                          options:NSJSONReadingMutableLeaves
+        //                          error:&error];
+        //    }
+        //    @finally
+        //    {
+        //        if (error != nil)
+        //        {
+        //            NSLog(@"error: %@", [error description]);
+        //        }
+        //        else {
+        //            NSLog(@"%@", [json description]);
+        //            return YES;
+        //        }
+        //        return NO;
+        //    }
+        
+    method: getFriends
+        //    NSDictionary* friends;
+        //    NSError* error;
+        //    NSArray* friendDict;
+        //    
+        //    @try{
+        //        friends = [NSJSONSerialization
+        //                   JSONObjectWithData:[self sendGET:@"/fb/friends"]
+        //                   options:NSJSONReadingMutableLeaves
+        //                   error:&error];
+        //    }
+        //    @finally {
+        //        friendDict = [friends objectForKey:@"data"];
+        //    }
+        //    
+        //    NSMutableArray* friendArray = [[NSMutableArray alloc] init];
+        //    for (id friend in friendDict)
+        //    {
+        //        NSDictionary* friendFromArray = (NSDictionary *)friend;
+        //        Person* person = [[Person alloc] initPersonWithValues:friendFromArray];
+        //        if (person != nil)
+        //        {
+        //            [friendArray addObject:person];
+        //        }
+        //    }
+        //    return friendDict;
+        //    
+        //    //    return parsedFriends;

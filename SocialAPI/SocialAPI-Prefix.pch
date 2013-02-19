@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SocialAPI' target in the 'SocialAPI' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
